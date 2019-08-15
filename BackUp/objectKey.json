@@ -1,0 +1,19 @@
+{
+"common": {
+  "menu": "AAA",
+  "language": "EN"
+},
+
+  "loginCam30" : {
+    "INP_UserName":"loginCam30_INP_UserName",
+    "LBL_greetting":"loginCam30_LBL_greetting",
+    "BTN_Continue":"loginCam30_BTN_Continue"
+  },
+
+
+  "loginCam10" : {
+    "INP_UserName":"loginCam10_INP_UserName",
+    "LBL_greetting":"loginCam10_LBL_greetting",
+    "BTN_Continue":"loginCam10_BTN_Continue"
+  }
+}
