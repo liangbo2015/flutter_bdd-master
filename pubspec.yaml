@@ -1,7 +1,6 @@
 name: hello_world
 
 environment:
-  # The pub client defaults to an <2.0.0 sdk constraint which we need to explicitly overwrite.
   sdk: ">=2.2.0 <3.0.0"
 
 dependencies:
@@ -16,6 +15,7 @@ dependencies:
   gherkin: ^1.0.0
   flutter_gherkin: ^1.0.0
   cupertino_icons: ^0.1.2
+  global_configuration: ^1.2.0
 
 dev_dependencies:
   flutter_test:
@@ -39,10 +39,7 @@ dev_dependencies:
 
 
 
-# PUBSPEC CHECKSUM: 235b
 flutter:
-
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
+  assets:
+    - assets/cfg/
